@@ -82,6 +82,12 @@ ul {
     list-style-type: none
 }
 
+a {
+    text-decoration: none;
+    out-line: none;
+    color: #*****;
+}
+
 h1,
 h2,
 h3,
