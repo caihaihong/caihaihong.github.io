@@ -67,3 +67,4 @@ console.log(this);
 fun.call(obj);
 ```
 
+##### bind: fn.bind(target)(1,2)
