@@ -18,3 +18,4 @@ var person = new Object();
 setName(person);//传递栈中的指针值
 console.log(person.name);//Nicholas
 ```
+

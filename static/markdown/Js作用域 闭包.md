@@ -16,6 +16,12 @@ console.log(a)  //1 说明javascript没有块级作用域
 
 ![image](https://github.com/caihaihong/caihaihong.github.io/blob/master/imgs/js/8.png?raw=true)  
  
+##### 变量对象
+变量对象，是执行上下文中的一部分，可以抽象为一种 数据作用域，其实也可以理解为就是一个简单的对象，它存储着该执行上下文中的所有 变量和函数声明(不包含函数表达式)。
+
+活动对象 (Activation Object): 当变量对象所处的上下文为 activation EC 时，称为活动对象。
+
+ 
 ##### 自由变量
 在A作用域中使用的变量x,却没有在A作用域声明，对于A作用域来说，x就是一个自由变量。
 **在fn函数中，取自由变量x的值时，要到哪个作用域中取？要到创建fn函数的那个作用域中取——无论fn函数将在哪里调用。**
@@ -103,7 +109,9 @@ function fn(){
 ```
 3. 模块化代码
 
+
 ```
+//立即调用表达式（IIFE）
 var test = (function(){
     var a= 1;
     return function(){

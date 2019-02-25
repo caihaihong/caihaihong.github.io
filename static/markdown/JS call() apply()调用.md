@@ -20,6 +20,8 @@ function sum(a, b) {
 // }
 ```
 
+---
+
 
 ```
 // 调用apply方法传入一个数组, 和一个对象myObj
@@ -41,6 +43,8 @@ testObj.apply(myObj);
 //     }
 // }
 ```
+
+---
 
 ```
 var myfunc = function() {
